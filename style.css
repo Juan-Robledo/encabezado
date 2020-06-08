@@ -1,0 +1,37 @@
+.contenedor{
+    width: 1200px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.encabezado{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg{
+    width: 1200px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-image: url("assets/images/bg-image.png");
+}
+
+h1{
+    width: 350px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+
+}
+
+.i{
+    height: 100px;
+}
